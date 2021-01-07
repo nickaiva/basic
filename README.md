@@ -1,3 +1,2 @@
 First line
 
-Fourth line
