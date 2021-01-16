@@ -31,3 +31,7 @@ git checkout newBranchName /* switch from main branch into newBranch*/
 git merge newBranchName /* to merge changes to main branch*/
 
 git checkout -- filename /* undo any changes*/
+
+/*push another feature branch other than main*/
+ git checkout feature
+  git push -u origin feature
