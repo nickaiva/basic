@@ -36,3 +36,5 @@ git checkout -- filename /* undo any changes*/
  git checkout feature
  git push -u origin feature
  git push
+
+ git pull /* to update local repo with new changes*/
