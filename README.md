@@ -1,2 +1,2 @@
-First line
-Added new feature
+git checkout feature
+git push -u origin feature
