@@ -34,4 +34,4 @@ git checkout -- filename /* undo any changes*/
 
 /*push another feature branch other than main*/
  git checkout feature
-  git push -u origin feature
+ git push -u origin feature
