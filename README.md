@@ -12,9 +12,6 @@ Here is a basic overview of how Git works:
     Open a "pull request" (propose changes to the master branch)
     "Merge" your branch to the master branch
 
-git remote add origin git@github.com:nickaiva/basic.git
-git branch -M main
-git push -u origin main
 
 git commit -m "descriptiveText"
 git status
@@ -31,6 +28,13 @@ git checkout newBranchName /* switch from main branch into newBranch*/
 git merge newBranchName /* to merge changes to main branch*/
 
 git checkout -- filename /* undo any changes*/
+
+/*Remote commands following*/
+
+git remote add origin git@github.com:nickaiva/basic.git
+git branch -M main
+git push -u origin main
+
 
 /*push another feature branch other than main*/
  git checkout feature
